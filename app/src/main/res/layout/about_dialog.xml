@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="350dp"
+    android:layout_height="460dp"
+    android:background="@drawable/bg14">
+
+ <TextView
+     android:id="@+id/adding_about"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:fontFamily="sans-serif-smallcaps"
+     android:layout_marginTop="10dp"
+     android:gravity="center"
+     android:text="Vehicle Tracking System"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     android:textStyle="bold" />
+ <ImageView
+     android:id="@+id/ivAbout"
+     android:layout_below="@+id/adding_about"
+     android:layout_marginTop="6dp"
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:layout_centerHorizontal="true"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30dp"
+      android:layout_below="@+id/ivAbout"
+      android:layout_marginTop="2dp"
+      android:layout_marginEnd="30dp"
+      android:background="@drawable/login_background"
+      android:orientation="vertical">
+   <ScrollView
+       android:id="@+id/svAbout"
+       android:layout_width="match_parent"
+       android:layout_height="280dp"
+       android:layout_below="@+id/ivAbout"
+       android:layout_marginTop="15dp"
+       android:paddingLeft="20dip"
+       android:paddingRight="20dip">
+   <TextView
+       android:id="@+id/tvAbout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:autoLink="web|email"
+       android:text="@+id/tvAbout" />
+   </ScrollView>
+  </LinearLayout>
+</RelativeLayout>

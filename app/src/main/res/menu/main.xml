@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sujan.trackingme.MainActivity"
+    >
+
+    <item
+        android:id="@+id/luanchmap"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:orderInCategory="100"
+        android:title="LuanchMap"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:title="@string/action_about"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    <item
+        android:id="@+id/action_satarttrip"
+        android:orderInCategory="500"
+        android:title="Start the Trip"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="500"
+        android:title="@string/action_quit"
+        app:showAsAction="never"/>
+</menu>

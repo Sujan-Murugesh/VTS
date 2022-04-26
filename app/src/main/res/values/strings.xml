@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Vehicle Tracking System</string>
+    <string name="hello_world">Geo location</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_quit">Quit System</string>
+    <string name="app_settings">App Settings</string>
+    <string name="txtLicense">Copyright © 2021 Murugesh Sujan\nAll rights reserved.\n\nWeb:\thttps://msujan.netlify.app/\n\nEmail:m.sujan.uor@gmail.com\n\nSocial:https://github.com/murugesh-sujan/\n\n1.Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2.Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nThis application was developed for research called Automatic Vehicle Gate Pass Management System. However this application can be used for individual or corporate use.\n\n University of Ruhuna .Faculty of Technology.Sri Lanka. \n\n </string>
+    <string name="gps_not_found_message">This app requires GPS or Location Service.\n\nWould you like to enable Location Service now?\n</string>
+    <string name="gps_not_found_title">GPS Not Enabled</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
